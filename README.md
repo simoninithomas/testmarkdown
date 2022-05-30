@@ -1,13 +1,18 @@
-# testmarkdown
+# Quiz Time 🥳
+
+The best way to learn and [to avoid the illusion of competence](https://fr.coursera.org/lecture/learning-how-to-learn/illusions-of-competence-BuFzf) **is to test yourself.**
+
+📝 Take a piece of paper and try to answer by writing, **then check the solutions**.
+
 
 ### Q1: What is Reinforcement Learning?
 
 <details>
 <summary>Solution</summary>
   
-Reinforcement learning is a framework for solving control tasks (also called decision problems) by building agents that learn from the environment by interacting with it through trial and error and receiving rewards (positive or negative) as unique feedback
+Reinforcement learning is a framework for solving control tasks (also called decision problems) by building agents that learn from the environment by interacting with it through trial and error and receiving rewards (positive or negative) as unique feedback.
 
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#a-formal-definition
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#a-formal-definition
   
 </details>
 
@@ -17,10 +22,10 @@ Reinforcement learning is a framework for solving control tasks (also called dec
 
 At every step:
 - Our Agent receives ______ from the environment
-- Based on that ______ the agent takes an ______
-- Our agent will move to the right
+- Based on that ______ the Agent takes an ______
+- Our Agent will move to the right
 - The Environment goes to a ______
-- The Environment gives ______ to the agent
+- The Environment gives ______ to the Agent
 
 <details>
 <summary>Solution</summary>
@@ -30,10 +35,12 @@ At every step:
 
 At every step:
 - Our Agent receives **state s0** from the environment
-- Based on that **state s0** the agent takes an **action a0**
-- Our agent will move to the right
+- Based on that **state s0** the Agent takes an **action a0**
+- Our Agent will move to the right
 - The Environment goes to a **new state s1**
-- The Environment gives **a reward r1** to the agent
+- The Environment gives **a reward r1** to the Agent
+  
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#the-rl-process
 
 </details>
 
@@ -43,13 +50,13 @@ At every step:
 <details>
 <summary>Solution</summary>
   
-- *The state* is a **complete description of the state of the world** (there is no hidden information). In a fully observed environment. For instance, in chess game, we receive a state from the environment since we have access to the whole check board information.
+- *The state* is a **complete description of the state of the world** (there is no hidden information), in a fully observed environment. For instance, in chess game, we receive a state from the environment since we have access to the whole checkboard information.
   
 - *The observation* is a **partial description of the state**. In a partially observed environment. For instance, in Super Mario Bros, we only see a part of the level close to the player, so we receive an observation.
 
 <img src="assets/img/obs_space_recap.jpg" alt="Observation Space Recap"/>  
 
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#observationsstates-space
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#observationsstates-space
 
 </details>
 
@@ -63,7 +70,7 @@ At every step:
   
 <img src="assets/img/tasks.jpg" alt="Task"/>  
   
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#type-of-tasks
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#type-of-tasks
 
 </details>
 
@@ -80,7 +87,7 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
   
 <img src="assets/img/expexpltradeoff.jpg" alt="Exploration/exploitation tradeoff"/>  
   
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#exploration-exploitation-tradeoff
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#exploration-exploitation-tradeoff
 </details>
 
 ### Q6: What is a policy?
@@ -92,7 +99,7 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
   
 <img src="assets/img/policy.jpg" alt="Policy"/>  
 
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#the-policy-%CF%80-the-agents-brain
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#the-policy-%CF%80-the-agents-brain
 </details>
 
 
@@ -106,7 +113,7 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
 
 <img src="assets/img/value.jpg" alt="Value illustration"/>
 
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#value-based-methods
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#value-based-methods
 </details>
 
 ### Q8: What are policy-based methods?
@@ -119,7 +126,7 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
 
 <img src="assets/img/policy.jpg" alt="Policy illustration"/>
   
-📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#value-based-methods
+📖 If you don't remember, check 👉 https://huggingface.co/blog/deep-rl-intro#value-based-methods
   
 
 </details>
