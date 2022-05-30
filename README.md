@@ -97,12 +97,17 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
 
 
 ### Q7: What are value-based methods?
+
+<details>
+<summary>Solution</summary>
+  
 - Value-based methods is one of the main approaches for solving RL problems.
 - In Value-based methods, instead of training a policy function, **we train a value function that maps a state to the expected value of being at that state**.
 
 <img src="assets/img/value.jpg" alt="Value illustration"/>
 
 📖 If you don't remember check 👉 https://huggingface.co/blog/deep-rl-intro#value-based-methods
+</details>
 
 ### Q8: What are policy-based methods?
 
