@@ -1,6 +1,6 @@
 # Quiz Time 🥳
 
-The best way to learn and [to avoid the illusion of competence](https://fr.coursera.org/lecture/learning-how-to-learn/illusions-of-competence-BuFzf) **is to test yourself.**
+The best way to learn and [to avoid the illusion of competence](https://fr.coursera.org/lecture/learning-how-to-learn/illusions-of-competence-BuFzf) **is to test yourself.** This will help you to find **where you need to reinforce your knowledge**. 
 
 📝 Take a piece of paper and try to answer by writing, **then check the solutions**.
 
@@ -130,6 +130,8 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
   
 
 </details>
+
+---
 
 Congrats on **finishing this Quiz** 🥳, if you missed some elements, take time to [read again the chapter](https://huggingface.co/blog/deep-rl-intro) to reinforce (😏) your knowledge.
 
