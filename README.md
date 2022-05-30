@@ -88,3 +88,32 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
 
 📖: https://huggingface.co/blog/deep-rl-intro#exploration-exploitation-tradeoff
 </details>
+
+### Q: What are value-based methods?
+- Value-based methods is one of the main approaches for solving RL problems.
+- In Value-based methods, instead of training a policy function, we train a value function that maps a state to the expected value of being at that state.
+
+📖: https://huggingface.co/blog/deep-rl-intro#value-based-methods
+
+
+
+### A small recap of this Unit
+
+That was a lot of information, if we summarize:
+
+Reinforcement Learning is a computational approach of learning from action. We build an agent that learns from the environment by interacting with it through trial and error and receiving rewards (negative or positive) as feedback.
+
+The goal of any RL agent is to maximize its expected cumulative reward (also called expected return) because RL is based on the reward hypothesis, which is that all goals can be described as the maximization of the expected cumulative reward.
+
+The RL process is a loop that outputs a sequence of state, action, reward and next state.
+
+To calculate the expected cumulative reward (expected return), we discount the rewards: the rewards that come sooner (at the beginning of the game) are more probable to happen since they are more predictable than the long term future reward.
+
+To solve an RL problem, you want to find an optimal policy, the policy is the “brain” of your AI that will tell us what action to take given a state. The optimal one is the one who gives you the actions that max the expected return.
+
+There are two ways to find your optimal policy:
+
+By training your policy directly: policy-based methods.
+By training a value function that tells us the expected return the agent will get at each state and use this function to define our policy: value-based methods.
+Finally, we speak about Deep RL because we introduces deep neural networks to estimate the action to take (policy-based) or to estimate the value of a state (value-based) hence the name “deep.”
+
