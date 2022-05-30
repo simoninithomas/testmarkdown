@@ -67,9 +67,24 @@ Reinforcement learning is a framework for solving control tasks (also called dec
 ### Q: A task is an instance of a Reinforcement Learning problem. What are the two types of tasks?
 <details>
 <summary>Solution</summary>
+-  *Episodic task* : we have a **starting point and an ending point (a terminal state)**. This creates an episode: a list of States, Actions, Rewards, and new States. For instance, think about Super Mario Bros: an episode begin at the launch of a new Mario Level and ending when you’re killed or you reached the end of the level.
   
+- *Continous task* : these are tasks that **continue forever (no terminal state)**. In this case, the agent must learn how to choose the best actions and simultaneously interact with the environment.
   
-
+📖: https://huggingface.co/blog/deep-rl-intro#type-of-tasks
 
 </details>
 
+### Q: What is the exploration/exploitation tradeoff?
+
+<details>
+<summary>Solution</summary>
+  
+In Reinforcement Learning, we need to **balance how much we explore the environment and how much we exploit what we know about the environment**. 
+
+- *Exploration* is exploring the environment by **trying random actions in order to find more information about the environment**.
+
+- *Exploitation* is **exploiting known information to maximize the reward**.
+
+📖: https://huggingface.co/blog/deep-rl-intro#exploration-exploitation-tradeoff
+</details>
