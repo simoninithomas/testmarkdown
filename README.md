@@ -130,3 +130,7 @@ In Reinforcement Learning, we need to **balance how much we explore the environm
   
 
 </details>
+
+Congrats on **finishing this Quiz** 🥳, if you missed some elements, take time to [read again the chapter](https://huggingface.co/blog/deep-rl-intro) to reinforce (😏) your knowledge.
+
+**Keep Learning, Stay Awesome**
